@@ -6,10 +6,19 @@ import java.util.ArrayList;
 
 public class Escalacao {
 
-    private String imprimir;
+	private String imprimir;
+	private String data;
+	
+	public String getData() {
+		return data;
+	}
+
+	public void setData(String data) {
+		this.data = data;
+	}
 
 	public Escalacao() {
-		this.imprimir="---------Imprimindo Escalação---------";
+		this.imprimir = "---------Imprimindo Escalação---------";
 	}
 	
 	public Escalacao(String imprimir) {
