@@ -9,35 +9,19 @@ public class Jogador {
     private Integer idade;
     private Time time;
 
-    public Jogador() {
+    public Jogador() { }
 
-    }
+    public String getNome() { return nome; }
 
-    public String getNome() {
-        return nome;
-    }
+    public void setNome(String nome) { this.nome = nome; }
 
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
+    public String getSobrenome() { return sobrenome; }
 
-    public String getSobrenome() {
-        return sobrenome;
-    }
+    public void setSobrenome(String sobrenome) { this.sobrenome = sobrenome; }
 
-    public void setSobrenome(String sobrenome) {
-        this.sobrenome = sobrenome;
-    }
+    public Integer getIdade() { return idade; }
 
-    public Integer getIdade() {
-        return idade;
-    }
+    public void setIdade(Integer integer) { this.idade = integer; }
 
-    public void setIdade(Integer integer) {
-        this.idade = integer;
-    }
-
-    public Time getTime() {
-        return time;
-    }
+    public Time getTime() { return time; }
 }
